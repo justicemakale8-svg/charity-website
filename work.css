@@ -1,0 +1,56 @@
+body {
+    background: fixed;
+    color: black;
+    padding: 10px;
+    margin: 0;
+}
+header {
+    padding: 10px;
+    color: black;
+    background: grey;
+    text-align: center;
+}
+nav {
+    color: black;
+    background: grey;
+}
+nav a:hover {
+    color: brown;
+}
+nav a:active {
+    color:green
+}
+.container {
+    padding: 10px;
+}
+.floating-btn {
+    background: #28a745;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    font-size: 16px;
+}
+.floating-btn:hover {
+    color: red;
+}
+input {
+    background: cornflowerblue;
+    border-radius: 15px;
+    padding: 10px;
+}
+nav a {
+    margin: 10px;
+}
+.floating-box {
+    width: 300px;
+    padding: 20px;
+    background: rgb(72, 4, 129);
+    box-shadow: 4px 8px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+footer {
+    background: grey;
+    color: black;
+    text-align: center;
+}
